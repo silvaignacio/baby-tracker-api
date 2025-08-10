@@ -1,0 +1,7 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/babytracker
+    username: postgres
+    password: password
+  main:
+    web-application-type: reactive
